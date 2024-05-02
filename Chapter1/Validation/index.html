@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>회원가입 화면</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="styles.css">
+        
+    </head>
+    
+    <body style="background-color: rgb(185, 227, 243);">
+        <div class="signupBox">
+
+            <p>회원가입</p>
+        
+            <div class="input">
+                <div class="label">이름</div>
+                <div class="form">
+                    <input type="text" id="name"/>
+                </div>
+                <span class="name hide"></span>
+                <div id="nameSuccess" class="success hide">멋진 이름이네요!</div>
+                <div id="nameError" class="error hide">필수 입력 항목입니다!</div>
+
+                <div class="label">닉네임</div>
+                <div class="form">
+                    <input type="text" id="nickname"/>
+                </div>
+                <span class="nickname hide"></span>
+                <div id="nicknameSuccess" class="success hide">멋진 닉네임이군요!</div>
+                <div id="nicknameError" class="error hide">           닉네임은 2~5글자로 구성해주세요!</div>
+
+                <div class="label">이메일</div>
+                <div class="form">
+                    <input type="email" id="email"/>
+                </div>
+                <span class="email hide"></span>
+                <div id="emailSuccess" class="success hide">올바른 메일 형식입니다!</div>
+                <div id="emailError" class="error hide">올바른 메일 형식이 아닙니다!</div>
+
+                <div class="label">비밀번호</div>
+                <div class="form">
+                    <input type="password" id="password"/>
+                </div>
+                <span class="password hide"></span>
+                <div id="passwordSuccess" class="success hide">안전한 비밀번호입니다!</div>
+                <div id="passwordError" class="error hide">                     영어+숫자+특수문자를 조합하여 작성해주세요.</div>
+
+                <div class="label">비밀번호 확인</div>
+                <div class="form">
+                    <input type="password" id="confirm"/>
+                </div>
+                <span class="confirm hide"></span>
+                <div id="confirmSuccess" class="success hide">비밀번호가 일치합니다.</div>
+                <div id="confirmError" class="error hide">비밀번호가 일치하지 않습니다.</div>
+            </div>
+
+            <div class="button">
+                <button id="open">가입하기</button>
+            </div>
+            <div class="modal-wrapper" style="display: none;">
+            <div class="modal">
+                <div class="modal-title">가입 성공!</div>
+                <p>umc 챌린저 가입을 축하합니다!!</p>
+                <div class="close-wrapper">
+                    <button id="close">닫기</button>
+                </div>
+            </div>
+        
+        <script src="index.js"></script>
+    </body>
+</html>

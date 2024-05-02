@@ -1,0 +1,115 @@
+.signupBox {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 7%;
+  margin-bottom: 7%;
+  width: 700px;
+  padding: 10px;
+  height: 750px;
+  border-radius: 15px;
+  background-color: rgba(238, 238, 238, 0.605);
+}
+    
+p {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  padding-bottom: 15px;
+  font-size: 30px;
+  font-weight: bolder;
+  background-color: transparent;
+  border-bottom: solid 1px white;
+}
+
+.input {
+  text-align: center;
+  color: white;
+  font-size: 10px;
+}
+ 
+.label {
+  color: black;
+  font-weight: bold;
+  font-size: 13px;
+  margin-top: 5px;
+}
+
+.form input {
+  width: 240px;
+  height: 26px;
+  background: rgba(203, 204, 219, 0.192);
+  border: solid 1px white;
+  border-radius: 8px;
+}
+
+.hide {
+  display: none;
+}
+
+.error {
+  color: rgb(203, 5, 5);
+  font-size: 10px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.success {
+  color: rgb(12, 197, 12);
+  font-size: 10px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#open {
+  width: 250px;
+  line-height: 50px;
+  border-radius: 10px;
+  color: white;
+  font-size: 20px;
+  margin-left: 225px;
+  border: none;
+  background-color: #ccc;
+}
+
+.modal-wrapper {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: rgba(0, 0, 0, 0.5);
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.modal-wrapper {
+display: none;
+text-align: center;
+}
+
+.modal {
+font-size: 24px;
+font-weight: bold;
+background-color: white;
+padding: 20px;
+border-radius: 20px;
+text-align: center;
+padding-top: 60px;
+height: 150px;
+}
+
+.modal p {
+margin-top: 40px;
+font-size: 16px;
+}
+
+.close-wrapper {
+text-align: right;
+}
+
+.label + .form {
+margin-bottom: 30px;
+margin-top: 5px;
+}
