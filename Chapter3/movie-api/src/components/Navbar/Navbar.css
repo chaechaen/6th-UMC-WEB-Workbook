@@ -1,0 +1,41 @@
+/* src/Components/Navbar/Navbar.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #474c79;
+    margin: -7px;
+  }
+  
+  .navbar-logo {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .navbar-menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navbar-menu li {
+    position: relative;
+  }
+  
+  .navbar-menu a {
+    color: white;
+    text-decoration: none;
+    transition: transform 0.3s;
+  }
+  
+  .navbar-menu a:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+
+.navbar-menu a.selected {
+  color: yellow; /* Popular 버튼의 글자 색상을 노란색으로 변경 */
+}
