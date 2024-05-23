@@ -13,6 +13,7 @@ function UpComing() {
 
     axios
       .get(BASE_URL + endpoint) // TMDB API에 GET 요청 보냄
+      
       // 응답 데이터는 reponse 객체에 포함되어 영화 목록이 포함된 response.data.results를 가져와 상태 업데이트
       .then((response) => {
         // 요청 성공시 실행
